@@ -1,13 +1,108 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="CodeHim">
+  <title>Scientific Calculator Example</title>
+
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- Demo CSS (No need to include it into your project) -->
+  <link rel="stylesheet" href="./css/demo.css">
+
+</head>
+
+<body>
+  <header class="intro">
+    <h1>Scientific Calculator Example</h1>
+    <p>A Scientific Calculator using Vanilla JavaScript.</p>
+
+    <div class="action">
+      <a href="https://www.codehim.com/html5-css3/scientific-calculator-source-code/"
+        title="Back to download and tutorial page" class="btn back">Back to Tutorial</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Start DEMO HTML (Use the following code into your project)-->
+    <div id="container">
+
+      <div class="calculator">
+        <div class="display">
+
+          <input id="output" type="text" name="" disabled />
+
+        </div>
+        <div id="buttons">
+
+          <div class="row">
+            <div class="button" id="clear">C</div>
+            <div class="button">π</div>
+            <div class="button">sqrt</div>
+            <div class="button">sq</div>
+            <div class="button">%</div>
+
+            <div class="button" id="backspace">&lt;=</div>
+          </div>
+          <div class="row">
+            <div class="button">log</div>
+            <div class="button">sin</div>
+            <div class="button">exp</div>
+            <div class="button">^</div>
+            <div class="button">+/-</div>
+            <div class="button">÷</div>
+
+          </div>
+          <div class="row">
+            <div class="button">ln</div>
+            <div class="button">cos</div>
+            <div class="button number">7</div>
+            <div class="button number">8</div>
+            <div class="button number">9</div>
+            <div class="button">x</div>
+
+          </div>
+          <div class="row">
+            <div class="button">n!</div>
+            <div class="button">tan</div>
+            <div class="button number">4</div>
+            <div class="button number">5</div>
+            <div class="button number">6</div>
+            <div class="button">-</div>
+          </div>
+          <div class="row">
+            <div class="button" id="radians">radians</div>
+            <div class="button number">1</div>
+            <div class="button number">2</div>
+            <div class="button number">3</div>
+            <div class="button">+</div>
+
+          </div>
+          <div class="row">
+            <div class="button" id="degrees">degrees</div>
+            <div class="button number" id="zero">0</div>
+            <div class="button" id>.</div>
+            <div class="button" id="equals">=</div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </main>
+  <!-- Calculator JS -->
+  <script src="./js/script.js"></script>
+
+  <!-- END EDMO HTML (Happy Coding!)-->
+
+
+  <footer class="credit">Author: Brandon Yen - Distributed By: <a title="Awesome web design code & scripts"
+      href="https://www.codehim.com?source=demo-page" target="_blank">CodeHim</a></footer>
+
+
+</body>
+
 </html>
